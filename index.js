@@ -10,5 +10,3 @@ function nameToAttributes(drivers){
         return { firstName: driverFirst, lastName: driverLast} });
 }
 
-function attributesToPhrase(drivers){
-    return drivers.map(driver => { return `${driver.name} is from ${driver.hometown}`;    })
